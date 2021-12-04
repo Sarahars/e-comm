@@ -7,21 +7,23 @@
     <link rel="stylesheet" href="./tailwind.css" />
     <title>Product</title>
   </head>
-  <body class="px-52">
+  <body class="px-8">
     <nav class="flex justify-between py-4 border-b-2 border-black">
       <h1 class="font-bold text-2xl">Logo</h1>
 
-      <ul class="flex">
+      <ul class="hidden md:flex">
         <li class="mx-4"><a href="./home.html">Home </a></li>
         <li class="mx-4"><a href="./product.html">Product </a></li>
         <li class="mx-4"><a href="./contact.html">Contact </a></li>
       </ul>
+      <img class=" w-8 h-8 md:hidden"src="./images/menu.png" alt="">
+
     </nav>
 
-    <main class="flex p-12 mt-24">
-      <div class="w-1/2 pr-12">
+    <section class=" md:flex px-12 md:mt-48 block mt-12">
+      <div class="md:w-1/2 pr-4">
         <h1 class="text-3xl font-bold">Product descreption</h1>
-        <p class="mt-12 text-justify">
+        <p class="mt-12  text-justify">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, eos.
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem! Lorem
           ipsum dolor sit amet consectetur, adipisicing elit. Et minima, harum
@@ -31,10 +33,10 @@
           aut fugit! Id natus ad eveniet praesentium corrupti dignissimos illo
         </p>
       </div>
-      <div class="w-1/2">
+      <div class="mt-8 md:w-1/2 md:mt-0">
         <img class="rounded-md" src="./images/nature.jpg" alt="" />
       </div>
-    </main>
+    </section>
 
   </body>
 </html>
